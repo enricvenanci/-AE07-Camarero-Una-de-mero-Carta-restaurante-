@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+    <plato tipo="entrante">
+        <nombre>Bruschetta</nombre>
+        <precio>5.50</precio>
+        <descripcion>Pan tostado con tomate, ajo y albahaca.</descripcion>
+        <calorias>250</calorias>
+        <ingredientes>
+            <categoria>vegetariano</categoria>
+            <categoria>sin gluten</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="entrante">
+        <nombre>Ensalada César</nombre>
+        <precio>7.00</precio>
+        <descripcion>Lechuga, pollo, crutones y aderezo César.</descripcion>
+        <calorias>350</calorias>
+        <ingredientes>
+            <categoria>contiene gluten</categoria>
+            <categoria>contiene lácteos</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="entrante">
+        <nombre>Gazpacho</nombre>
+        <precio>4.50</precio>
+        <descripcion>Sopa fría de tomate y verduras frescas.</descripcion>
+        <calorias>150</calorias>
+        <ingredientes>
+            <categoria>vegetariano</categoria>
+            <categoria>sin gluten</categoria>
+        </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+        <nombre>Paella de Mariscos</nombre>
+        <precio>15.00</precio>
+        <descripcion>Arroz con gambas, mejillones y calamares.</descripcion>
+        <calorias>600</calorias>
+        <ingredientes>
+            <categoria>mariscos</categoria>
+            <categoria>contiene gluten</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="principal">
+        <nombre>Solomillo a la Pimienta</nombre>
+        <precio>18.50</precio>
+        <descripcion>Solomillo de ternera con salsa de pimienta.</descripcion>
+        <calorias>750</calorias>
+        <ingredientes>
+            <categoria>carne</categoria>
+            <categoria>contiene lácteos</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="principal">
+        <nombre>Raviolis de Espinaca</nombre>
+        <precio>12.00</precio>
+        <descripcion>Pasta rellena de espinaca y ricotta con salsa de tomate.</descripcion>
+        <calorias>500</calorias>
+        <ingredientes>
+            <categoria>vegetariano</categoria>
+            <categoria>contiene gluten</categoria>
+            <categoria>contiene lácteos</categoria>
+        </ingredientes>
+    </plato>
+
+    <plato tipo="postre">
+        <nombre>Tiramisú</nombre>
+        <precio>6.00</precio>
+        <descripcion>Postre italiano con café y mascarpone.</descripcion>
+        <calorias>450</calorias>
+        <ingredientes>
+            <categoria>lácteo</categoria>
+            <categoria>contiene cafeína</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="postre">
+        <nombre>Helado Artesanal</nombre>
+        <precio>4.00</precio>
+        <descripcion>Helado de vainilla, chocolate o fresa.</descripcion>
+        <calorias>300</calorias>
+        <ingredientes>
+            <categoria>lácteo</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="postre">
+        <nombre>Brownie con Nueces</nombre>
+        <precio>5.50</precio>
+        <descripcion>Bizcocho de chocolate con trozos de nueces.</descripcion>
+        <calorias>500</calorias>
+        <ingredientes>
+            <categoria>contiene gluten</categoria>
+            <categoria>contiene frutos secos</categoria>
+        </ingredientes>
+    </plato>
+
+    <plato tipo="bebida">
+        <nombre>Agua Mineral</nombre>
+        <precio>2.00</precio>
+        <descripcion>Botella de agua mineral natural.</descripcion>
+        <calorias>0</calorias>
+        <ingredientes>
+            <categoria>sin gluten</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Vino Tinto</nombre>
+        <precio>3.50</precio>
+        <descripcion>Copa de vino tinto de la casa.</descripcion>
+        <calorias>120</calorias>
+        <ingredientes>
+            <categoria>contiene alcohol</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Cerveza Artesanal</nombre>
+        <precio>4.00</precio>
+        <descripcion>Cerveza artesanal de producción local.</descripcion>
+        <calorias>150</calorias>
+        <ingredientes>
+            <categoria>contiene gluten</categoria>
+            <categoria>contiene alcohol</categoria>
+        </ingredientes>
+    </plato>
+</menu> 

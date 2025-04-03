@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #3498db;
+    --primary-hover: #2980b9;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f4f9;
+    --text-color: #333;
+    --light-gray: #e0e0e0;
+    --dark-gray: #555;
+}
+
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: var(--secondary-color);
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Plato */
+.plato {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.plato:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plato img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.plato h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+.plato p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.plato p strong {
+    color: var(--secondary-color);
+}
+
+.caracteristica {
+    display: inline-block;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 0.9em;
+    color: var(--dark-gray);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.caracteristica:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.plato .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.plato .btn:hover {
+    background-color: var(--primary-hover);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plato {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .plato h2 {
+        font-size: 1.5em;
+    }
+
+    .plato p {
+        font-size: 0.9em;
+    }
+
+    .plato img {
+        max-width: 80%;
+    }
+}
