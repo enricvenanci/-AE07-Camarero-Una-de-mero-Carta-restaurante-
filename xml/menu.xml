@@ -54,6 +54,16 @@
         </ingredientes>
     </plato>
     <plato tipo="principal">
+        <nombre>Huevos rotos con jamón</nombre>
+        <precio>20.00</precio>
+        <descripcion>Huevos fritos con patatas fritas y jamón ibérico.</descripcion>
+        <calorias>400</calorias>
+        <ingredientes>
+            <categoria>carne</categoria>
+            <categoria>contiene gluten</categoria>
+        </ingredientes>
+    </plato>
+    <plato tipo="principal">
         <nombre>Solomillo a la Pimienta</nombre>
         <precio>18.50</precio>
         <descripcion>Solomillo de ternera con salsa de pimienta.</descripcion>
@@ -104,6 +114,16 @@
             <categoria>contiene frutos secos</categoria>
         </ingredientes>
     </plato>
+        <plato tipo="postre">
+        <nombre>Tarta de queso</nombre>
+        <precio>4.50</precio>
+        <descripcion>Tarta de queso artesanal.</descripcion>
+        <calorias>250</calorias>
+        <ingredientes>
+            <categoria>lácteo</categoria>
+            <categoria>contiene gluten</categoria>
+        </ingredientes>
+    </plato>    
 
     <plato tipo="bebida">
         <nombre>Agua Mineral</nombre>
