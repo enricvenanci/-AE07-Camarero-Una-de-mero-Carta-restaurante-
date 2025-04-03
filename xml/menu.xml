@@ -31,6 +31,17 @@
             <categoria>sin gluten</categoria>
         </ingredientes>
     </plato>
+    <plato tipo="entrante">
+        <nombre>Hummus</nombre>
+        <precio>6.00</precio>
+        <descripcion>Hummus casero de garbanzos.</descripcion>
+        <calorias>270</calorias>
+        <ingredientes>
+            <categoria>vegetariano</categoria>
+            <categoria>sin gluten</categoria>
+            <categoria>contiene legumbres</categoria>
+        </ingredientes>
+    </plato>
 
     <plato tipo="principal">
         <nombre>Paella de Mariscos</nombre>
@@ -101,6 +112,15 @@
         <calorias>0</calorias>
         <ingredientes>
             <categoria>sin gluten</categoria>
+        </ingredientes>
+    </plato>
+        <plato tipo="bebida">
+        <nombre>Refresco</nombre>
+        <precio>2.70</precio>
+        <descripcion>Coca-Cola, Fanta (Naranja/Limón), Nestea, Sprite, Aquarius (Naranja/Limón) y Trina (Naranja/Limón)</descripcion>
+        <calorias>0-200</calorias>
+        <ingredientes>
+            <categoria>contiene azúcar</categoria>
         </ingredientes>
     </plato>
     <plato tipo="bebida">
