@@ -60,7 +60,7 @@
         <calorias>400</calorias>
         <ingredientes>
             <categoria>carne</categoria>
-            <categoria>contiene gluten</categoria>
+            <categoria>fritos</categoria>
         </ingredientes>
     </plato>
     <plato tipo="principal">
